@@ -1,0 +1,61 @@
+# Backup files created by some text editors and tools
+*~
+*.bak
+*.swp
+*.acn
+*.acr
+*.zwh
+*.old
+*.orig
+
+# Directory containing Terraform state
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform state backup files
+*.tfstate.backup
+
+# Terraform state lock files
+*.tflock
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform configuration files
+terraform.rc
+terraform.tfvars
+*.auto.tfvars
+
+# Terraform log files
+terraform.log
+
+# Terraform plan files
+*.tfplan
+
+# Local Terraform modules
+modules/
+
+# Sensitive files like SSH keys and certificates
+*.pem
+*.key
+
+# Terraform crash log files
+crash.log
+
+# Ignore all files that might contain sensitive information
+secrets.tfvars
+credentials.json
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+*.iml
+
+# Others
+.DS_Store
